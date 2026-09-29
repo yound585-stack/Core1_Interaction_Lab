@@ -39,3 +39,12 @@ ul{
     font-size: 20px;
     color:seashell
 }
+button{
+    font-size: 30px;
+    background-color:fuchsia;
+    font-family: "jazzier", serif;
+    color: white;
+    &:hover{
+        background-color:aqua;
+    }
+}

@@ -437,13 +437,14 @@ article{
 }
 
 .leftupperside{
+  position:fixed;
  z-index: 10; 
 }
 .rightupperside{
-  right: 0;
+  left: 0;
   transform: scaleX(-1);
   position: fixed;
-  margin-right:1103px;
+  margin-left: 409px;
 }
 .midblocks-bottom{
   position: fixed;
@@ -468,9 +469,9 @@ article{
   margin-left:-18px;
 }
 .rightbottomside{
-  right: 0;
+  left: 0;
   transform: scaleX(-1);
   position: fixed;
   margin-top: 232px;
-  margin-right:1109px;
+  margin-left: 403px;
 }

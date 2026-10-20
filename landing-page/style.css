@@ -12,6 +12,7 @@ html, body {
   overflow: hidden;
   background-color: #000;
 }
+
 .background {
   position: fixed;
   bottom: 70px;
@@ -26,17 +27,13 @@ html, body {
 }
 .icon1 {
   position: absolute;
-  scale: 10%;
-  top: -1300px;      
-  left: 27%;
+  scale: 50%;
+  top: 10%;      
+  left: 22.5%;
   width: 80px;
-  transform: rotate(-10deg);
   z-index: 2;
-  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1) 
 }  
-.icon1:hover {   
- transform: translateY(-10px);
-}
+
 .icon2 {
     position: absolute;
     left: 37%;
@@ -63,10 +60,10 @@ html, body {
 }
 .icon4 {
     position: absolute;
-    left: 23%;
-    top:0%;
+    left: 30%;
+    top:-28%;
     z-index:2;
-    scale:60%;
+    scale:30%;
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1)
 }
 .icon4:hover {   
@@ -98,10 +95,10 @@ html, body {
 }
 .sticker4 {
     position: absolute;
-    left: 6%;
-    top: 15%;
+    left: 20%;
+    top: 2%;
     z-index:4;
-    scale: 30%;
+    scale: 20%;
 }
 .sticker5 {
     position: absolute;

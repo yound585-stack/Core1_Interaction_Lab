@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.kk img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.buttonsp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.buttons img {
+    width: 200px;      
+    height: auto;
+    display: block;
+}
+
+.back img{
+    position: fixed;   /* 화면 기준으로 고정 */
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: auto;
+    display: block;
+    z-index: 10; 
+}

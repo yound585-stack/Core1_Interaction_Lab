@@ -1,0 +1,67 @@
+body {
+      margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "chez-moustache", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 12vw;
+        color:rgb(94, 65, 61);
+        background-color: rgb(137, 220, 170);
+        flex-direction: column;
+  }
+  p{
+    font-size: 1vw;
+  }
+.scene {
+    display: none;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    scale: 100%;
+    z-index: 0;               
+}
+.scene.active { 
+  display: block; 
+}
+
+#clock {
+    position: relative;       /* z-index가 적용되려면 필요 */
+    z-index: 1;
+    top: -3%;  
+    left: -14%;      /* 이미지보다 앞쪽 */
+}
+
+
+.breakbutton img {
+    width: 20vw;          /* 원하는 크기로 조절 */
+    height: auto;
+    display: block;
+}
+
+button {
+  background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.buttonrow {
+    position: relative;
+    z-index: 2;           /* 이미지(0)와 시계(1)보다 앞 */
+    order: -1;            /* 맨 위로 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;             /* 두 버튼 사이 간격 */
+    top: -20%;            /* 기존 a에 있던 위치 값 */
+    right: -25%;
+}
+
+.buttonrow img {
+    width: 20vw;
+    height: auto;
+    display: block;
+}
